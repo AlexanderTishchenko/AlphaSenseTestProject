@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4a4551ac-acd6-4db8-9ce7-821ec66f1b89" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="AlphaSenseTestProject" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XypnTtXME2xQaNpMWLOwt7A7sg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alex_\IdeaProjects\AlphaSenseTestProject\resources" />
+      <recent name="C:\Users\alex_\IdeaProjects\AlphaSenseTestProject" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.BasicTests.createNewUserAccount (1)">
+    <configuration name="BasicTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AlphaSenseTestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.BasicTests" />
+      <option name="METHOD_NAME" value="createNewUserAccount" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicTests.createNewUserAccount (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AlphaSenseTestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.BasicTests" />
+      <option name="METHOD_NAME" value="createNewUserAccount" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="0" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/alex_/.IdeaIC2019.3/system/temp-testng-customsuite.xml (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AlphaSenseTestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="$USER_HOME$/.IdeaIC2019.3/system/temp-testng-customsuite.xml" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.BasicTests" />
+      <option name="METHOD_NAME" value="createNewUserAccount" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="0" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/alex_/.IdeaIC2019.3/system/temp-testng-customsuite.xml (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AlphaSenseTestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="$USER_HOME$/.IdeaIC2019.3/system/temp-testng-customsuite.xml" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.BasicTests" />
+      <option name="METHOD_NAME" value="createNewUserAccount" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="0" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/alex_/.IdeaIC2019.3/system/temp-testng-customsuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AlphaSenseTestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="$USER_HOME$/.IdeaIC2019.3/system/temp-testng-customsuite.xml" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.BasicTests" />
+      <option name="METHOD_NAME" value="createNewUserAccount" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="0" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.BasicTests.createNewUserAccount (1)" />
+        <item itemvalue="TestNG.C:/Users/alex_/.IdeaIC2019.3/system/temp-testng-customsuite.xml (2)" />
+        <item itemvalue="TestNG.C:/Users/alex_/.IdeaIC2019.3/system/temp-testng-customsuite.xml (1)" />
+        <item itemvalue="TestNG.BasicTests" />
+        <item itemvalue="TestNG.C:/Users/alex_/.IdeaIC2019.3/system/temp-testng-customsuite.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a4551ac-acd6-4db8-9ce7-821ec66f1b89" name="Default Changelist" comment="" />
+      <created>1582028355862</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582028355862</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2610" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1582109064030">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2610" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582109064030" />
+    <state x="2676" y="405" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582111123989">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2676" y="405" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582111123989" />
+    <state x="2610" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582109646389">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2610" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582109646389" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1582052376063">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582052376063" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1582120680866">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582120680866" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1582120680866">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582120680866" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1582120680866">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582120680866" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1582120680866">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582120680866" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1582120680654">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582120680654" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1582120680653">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582120680653" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1582120680653">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582120680653" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1582120680654">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582120680654" />
+    <state x="2410" y="175" key="Maven.ArtifactSearchDialog" timestamp="1582105183032">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2410" y="175" key="Maven.ArtifactSearchDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582105183032" />
+    <state width="498" height="398" key="SwitcherDM" timestamp="1582052353383">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="498" height="398" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1582052353383" />
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1582052310118">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1582028359520" />
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582052310118" />
+  </component>
+</project>
