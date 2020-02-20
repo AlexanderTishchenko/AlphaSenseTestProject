@@ -20,7 +20,7 @@ public class SearchItem extends ComplexCustomElementBase {
     public void addToCart() {
         _productName.hover();
         _addToCartButton.click();
-        Wait.waitForAjax(browser, 2);
+        Wait.waitForAjax(browser, 4);
     }
 
     @FindBy(className = "product-name")

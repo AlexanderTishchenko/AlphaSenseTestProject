@@ -107,4 +107,8 @@ public class BrowserDriver {
     public Object executeScript(String script, Object[] parameters) {
         return ((JavascriptExecutor)webDriver).executeScript(script, parameters);
     }
+
+    public void deleteAllCookies() {
+        getWebDriver().manage().deleteAllCookies();
+    }
 }

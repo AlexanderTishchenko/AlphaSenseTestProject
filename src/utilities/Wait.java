@@ -76,5 +76,6 @@ public class Wait {
     public static void waitForFile(BrowserDriver driver, File file) {
         FluentWait wait = new FluentWait(driver).withTimeout(Duration.ofSeconds(5)).pollingEvery(Duration.ofSeconds(1));
         wait.until((webDriver) -> file.listFiles().length > 0);
+        wait.until((webDriver) -> !file.listFiles()[0].getName().contains(".crdownload"));
     }
 }

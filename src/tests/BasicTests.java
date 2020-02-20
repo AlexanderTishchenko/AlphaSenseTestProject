@@ -31,6 +31,8 @@ public class BasicTests extends SeleniumTestBase {
 
     @Test
     public void createNewUserAccountTest() {
+        getBrowser().deleteAllCookies();
+
         CustomLog.step(1, "Open Home page: " + UriBuilder.getUri(getBrowser(), HomePage.class));
         HomePage homePage = PageOpening.open(getBrowser(), HomePage.class);
 
@@ -77,6 +79,8 @@ public class BasicTests extends SeleniumTestBase {
     public void makeAnOrderTest() {
         String productName = "Blouse";
         UserCredentials testUserCredentials = Users.TestUser.getCredentials();
+        getBrowser().deleteAllCookies();
+
         CustomLog.step(1, "Open Home page: " + UriBuilder.getUri(getBrowser(), HomePage.class));
         HomePage homePage = PageOpening.open(getBrowser(), HomePage.class);
 
@@ -113,6 +117,7 @@ public class BasicTests extends SeleniumTestBase {
     @Test()
     public void downloadTheInvoiceTest() {
         FilesUtilities.removeAllDownloadedFiles();
+        getBrowser().deleteAllCookies();
         UserCredentials testUserCredentials = Users.TestUser.getCredentials();
 
         CustomLog.step(1, "Open Home page: " + UriBuilder.getUri(getBrowser(), HomePage.class));
