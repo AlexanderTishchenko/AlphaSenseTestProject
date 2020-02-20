@@ -1,15 +1,18 @@
 package utilities;
 
 import core.BrowserDriver;
+import org.openqa.selenium.support.ui.FluentWait;
 import pages.PageBase;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.File;
 import java.time.Duration;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
+import java.util.concurrent.TimeUnit;
 
 public class Wait {
     public static void waitForPageLoad(BrowserDriver driver, Class clazz) {
@@ -68,5 +71,10 @@ public class Wait {
             }
         }
         return false;
+    }
+
+    public static void waitForFile(BrowserDriver driver, File file) {
+        FluentWait wait = new FluentWait(driver).withTimeout(Duration.ofSeconds(5)).pollingEvery(Duration.ofSeconds(1));
+        wait.until((webDriver) -> file.listFiles().length > 0);
     }
 }

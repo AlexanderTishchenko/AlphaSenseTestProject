@@ -6,6 +6,7 @@ import elements.simple.TextFieldElement;
 import models.annotations.PageUri;
 import models.users.UserCredentials;
 import org.openqa.selenium.support.FindBy;
+import pages.main.account.MyAccountPage;
 import utilities.PageOpening;
 
 import java.net.URI;

@@ -3,12 +3,15 @@ package core;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import utilities.ConfigReader;
+import utilities.PathsUtil;
 
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.util.HashMap;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -46,7 +49,13 @@ public class BrowserDriver {
         switch (browser) {
             case CHROME: {
                 System.setProperty("webdriver.CHROME.driver", "chromedriver.exe");
-                webDriver = new ChromeDriver();
+                HashMap<String, Object> chromePrefs = new HashMap<>();
+                chromePrefs.put("profile.default_content_settings.popups", 0);
+                chromePrefs.put("download.default_directory", PathsUtil.GetDownloadFolder());
+
+                ChromeOptions options = new ChromeOptions();
+                options.setExperimentalOption("prefs", chromePrefs);
+                webDriver = new ChromeDriver(options);
                 break;
             }
             case FIREFOX: {

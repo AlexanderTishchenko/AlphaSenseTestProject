@@ -1,6 +1,7 @@
 package tests;
 
 import elements.complex.AddToCartWindow;
+import elements.complex.OrderItem;
 import logger.CustomLog;
 import models.users.User;
 import models.users.UserCredentials;
@@ -8,7 +9,10 @@ import models.users.Users;
 import org.hamcrest.MatcherAssert;
 import org.testng.annotations.*;
 import pages.main.*;
+import pages.main.account.MyAccountPage;
+import pages.main.account.OrderHistoryPage;
 import pages.main.checkout.*;
+import utilities.FilesUtilities;
 import utilities.PageOpening;
 import utilities.Randomizer;
 import utilities.UriBuilder;
@@ -104,5 +108,29 @@ public class BasicTests extends SeleniumTestBase {
         CustomLog.step(10, "Verify success message");
         MatcherAssert.assertThat("Success message in not equal to expected",
                 paymentTab.getSuccessAlertText(), is(equalTo("Your order on My Store is complete.")));
+    }
+
+    @Test()
+    public void downloadTheInvoiceTest() {
+        FilesUtilities.removeAllDownloadedFiles();
+        UserCredentials testUserCredentials = Users.TestUser.getCredentials();
+
+        CustomLog.step(1, "Open Home page: " + UriBuilder.getUri(getBrowser(), HomePage.class));
+        HomePage homePage = PageOpening.open(getBrowser(), HomePage.class);
+
+        CustomLog.step(2, "Sign in as a test user");
+        AuthenticationPage authenticationPage = homePage.clickSignIn();
+        MyAccountPage myAccountPage = authenticationPage.signIn(testUserCredentials);
+
+        CustomLog.step(3, "Open Order History page");
+        OrderHistoryPage orderHistoryPage = myAccountPage.openOrderHistory();
+
+        CustomLog.step(4, "Download the first invoice");
+        OrderItem orderItem = orderHistoryPage.getOrderList().iterator().next();
+        orderItem.downloadInvoice();
+
+        CustomLog.step(5, "Verify that file is downloaded");
+        boolean exists = FilesUtilities.isFileExist(getBrowser(),"IN.*\\.pdf");
+        MatcherAssert.assertThat("Downloaded document is not found", exists, is(true));
     }
 }

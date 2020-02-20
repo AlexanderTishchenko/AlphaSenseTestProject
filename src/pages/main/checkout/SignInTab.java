@@ -7,7 +7,6 @@ import models.annotations.PageUri;
 import models.users.UserCredentials;
 import org.openqa.selenium.support.FindBy;
 import pages.main.MainPageBase;
-import pages.main.MyAccountPage;
 import utilities.PageOpening;
 
 import java.net.URI;
