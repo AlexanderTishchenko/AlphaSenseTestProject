@@ -12,8 +12,8 @@ public class User {
     private String mobilePhone;
     private String addressAlias;
 
-    User(UserCredentials credentials) {
-        this.credentials = credentials;
+    User(String email, String password) {
+        this.credentials = new UserCredentials(email, password);
     }
 
     public User(UserCredentials credentials, String firstName, String lastName, String address, String city, String state, String zipOrPostalCode, String country, String mobilePhone, String addressAlias) {
