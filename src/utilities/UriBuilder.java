@@ -14,6 +14,6 @@ public class UriBuilder {
     }
 
     static Boolean isUriMatches(BrowserDriver driver, Class clazz, URI currentUri) {
-        return getUri(driver, clazz).equals(currentUri);
+        return currentUri.toString().contains(getUri(driver, clazz).toString());
     }
 }

@@ -2,6 +2,7 @@ package pages.main;
 
 import core.BrowserDriver;
 import elements.simple.ButtonElement;
+import elements.simple.TextFieldElement;
 import org.openqa.selenium.support.FindBy;
 import pages.PageBase;
 import utilities.PageOpening;
@@ -21,9 +22,21 @@ public abstract class MainPageBase extends PageBase {
         return PageOpening.open(browser, _signOutButton, AuthenticationPage.class, false);
     }
 
+    public SearchPage search(String searchText) {
+        _searchField.fill(searchText);
+        return PageOpening.open(browser, _searchButton, SearchPage.class, false);
+
+    }
+
     @FindBy(className = "login")
     private ButtonElement _signInButton;
 
     @FindBy(className = "logout")
     private ButtonElement _signOutButton;
+
+    @FindBy(id = "search_query_top")
+    private TextFieldElement _searchField;
+
+    @FindBy(name = "submit_search")
+    private ButtonElement _searchButton;
 }

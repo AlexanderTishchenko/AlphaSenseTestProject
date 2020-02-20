@@ -30,6 +30,10 @@ public abstract class ElementBase implements CustomWebElementInterface {
         return elementContainer.getPage();
     }
 
+    public String getText() {
+        return getWrappedElement().getText();
+    }
+
     public void click() {
         getWrappedElement().click();
     }
